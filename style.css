@@ -1,0 +1,38 @@
+header {
+  text-align: right;
+}
+
+body {
+  text-align: center;
+}
+
+.logo {
+  padding-top: 172px;
+  padding-bottom: 20px;
+}
+
+.search-bar {
+  height: 42px;
+  width: 484px;
+  margin-bottom: 30px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+}
+
+.btn {
+  font-size: 12.5px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  color: #757575;
+  border: 1px;
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 3px;
+  background-color: #f1f1f1;
+
+  :focus {
+    border: 1px, #f2f2f2;
+  }
+}
